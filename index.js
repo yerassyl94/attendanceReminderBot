@@ -19,11 +19,13 @@ let text1 = 'Dear ' + daniyarId + sentence + place1 + course1 + id + password + 
 
 const jobDaniyar = new CronJob('0 0,15 10 * * 1,3',function(){
 	bot.sendMessage(chatId, 'Dear ' + daniyarId + sentence + place1 + course1 + id + password + smile)
-})
+    jobNazarbek.start();
+});
 
 const jobNazarbek = new CronJob('0 0,15 16 * * 2,4',function(){
 	bot.sendMessage(chatId, 'Dear ' + nazarberId + sentence + place2 + course2 + id + password + smile)
-})
+    jobDaniyar.start();
+});
 
 jobDaniyar.start();
-jobNazarbek.start();
+
