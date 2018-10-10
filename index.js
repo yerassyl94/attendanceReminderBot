@@ -12,7 +12,7 @@ const place2 = 'Place: EB2 E101\n'
 const course1 = 'Course title: Anatomy and Physiology\n'
 const course2 = 'Course title: Intro. to Nanomaterials\n'
 const id = 'ID: yerassyl94\n'
-const password = 'password: MyMaster=YeraBoss001\n'
+const password = 'password: P@ssw0rd1\n'
 const smile = 'Thank you <3'
 let text2 = 'Dear '+nazarbekId + sentence +place2 + course2 + id + password + smile
 let text1 = 'Dear ' + daniyarId + sentence + place1 + course1 + id + password + smile
